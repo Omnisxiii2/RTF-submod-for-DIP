@@ -1,2 +1,14 @@
-# RTF-submod-for-DIP
-Refitting in Ultimate Admiral: Dreadnoughts currently consists only of swapping out some turret models and some component changes. This submod for BrotherMunro's Dreadnoughts Improvement Project adds more "modern" towers and funnels statwise identical to ones available on modern battleship hulls, which can be unlocked via research.
+Welcome! If you are here, you have BrotherMunro's Dreadnoughts Improvement Mod and are here for one of the below reasons:
+
+* You want to be able to "modernize" your ships beyond what is possible with just swapping out some guns or components; you want to be able to install better towers and funnels to make your ships much more viable two decades after entry into service.
+* You are a bit of a "story" player and you want to see your ship visually change appearance to a modern superstructure when you refit it.
+
+This is the submod for you! This submod adds a variety of towers from more modern hulls to all dreadnought-era capital ships (and a few selected armored cruisers). Most nations also get new funnel options as well, although not every nation gets these.
+
+Please note, due to the way the parts file works, and my desire to "change as little as possible" to hopefully keep existing saves and shared designs functional, the towers and funnels have not always been "tailored" to the exact specific hull. There may be some hulls which have access to several options that simply don't fit on the hull.
+
+Some notes:
+* For clarity, the new parts have been renamed with a prefix before the tower's original in-game name; "Modernization" and "Rebuild". "Modernization" is unlocked with technology late_BB_towers_level_3 (1921) for towers and late_BB_funnels_level_3 (1925) for funnels, respectively. "Rebuild" is unlocked with technology late_BB_towers_level_4 (1933) for towers and late_BB_funnels_level_4 (1934) for funnels, respectively. It is important to note that it appears that while this limited access works in campaign, the shared designs and custom battle shipbuilders seem to automatically unlock all towers and funnels for the hull, which allows players to access these parts in the shared designs builder and custom battle builder even if the year does not correspond to expected technology unlock date. However, in campaign, the parts requiring technology would mean the AI and player would likely be unable to use any shared design using these parts. I recommend using only the regular vanilla tower and funnel parts if you're making a shared design for use in a campaign.
+* I conducted a test using a shared design random generator set to 1915 for the Netherlands to generate 30 battleship designs, and the AI despite having theoretical access to the refit parts in the shared design builder did not generate a single design with the refit parts, so I hypothesize that the shared designs random generator does take into account technology somehow. However, until this can be verified with information about how random ship generation is done by the AI, I would keep an eye out for any AI ship incorrectly using these parts far too early, especially if it occurs in campaign. Please let me know if this happens as well as any information about where this occurred. 
+
+To use, simply download the parts file, then replace the mod's original parts with matching names with these.
